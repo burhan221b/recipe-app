@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Recipes = (props) => (
     <div className="container">
-        {!props.recipes && <h1 className="recipes__title">Please enter Your Delicious Meal Name or Item</h1>}
+        {
+            !props.recipes && <h1 className="recipes__title">Please enter Your Delicious Meal Name or Item</h1>
+        }
 
         {
             props.recipes &&
@@ -41,7 +43,7 @@ const Recipes = (props) => (
 
 export default Recipes;
 
-
+{/* <div className="lds-roller"><div>hi</div><div>hi</div><div>hi</div><div>hi</div><div>hi</div><div>hi</div><div>hi</div><div>hi</div></div> */ }
 
 
 // const Recipes = (props) => (
