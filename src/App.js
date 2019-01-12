@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 
-const API_KEY = "{Your API KEY}";
+const API_KEY = "d4376f45475912a4a1ae924b87649fcc";
 class App extends Component {
 
   state = {

@@ -29,6 +29,7 @@ button:focus {
 
 .App-title {
   font-size: 1.5em;
+  font-weight: 700;
 }
 
 .recipe_buttons {
@@ -61,6 +62,8 @@ button:focus {
   text-transform: uppercase;
   font-size: 1.1rem;
   padding: 1.8rem 0 0.2rem 0;
+  font-weight: 900;
+
 }
 
 .recipes__subtitle {
@@ -85,6 +88,11 @@ button:focus {
   letter-spacing: 2px;
   width: 10%;
   padding: 0.4rem;
+  cursor: pointer;
+}
+.form__input:hover{
+  background: #ede4e3;
+  border-radius: 10% 10% 0 0;
 }
 
 .form__button {
@@ -97,6 +105,12 @@ button:focus {
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 0.7rem;
+  box-shadow: 2px 2px 10px #111;
+  cursor: pointer;
+}
+.form__button:hover{
+  background-color: #e74c3c;
+  color: #fff;
 }
 
 input[type="text"] { 

@@ -5,7 +5,7 @@ import Loader from './Loader/index.js';
 // to help go back
 import { Link } from "react-router-dom";
 
-const API_KEY = "{APIKEY}";
+const API_KEY = "d4376f45475912a4a1ae924b87649fcc";
 
 
 class Recipe extends React.Component {
